@@ -1,0 +1,46 @@
+.incidents-containner{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.incidents-containner .content{
+    width: 100%;
+    padding: 96px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.incidents-containner .content section{
+    width: 100%;
+    max-width: 350px;
+}
+
+.incidents-containner .content section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.incidents-containner .content section p{
+    color:#E61A27;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.incidents-containner .content form textarea, 
+.incidents-containner .content form button,
+.incidents-containner .content form input{
+    margin-top: 8px;
+}
+
+.incidents-containner section img{
+    height: 190px;
+ }
+ 

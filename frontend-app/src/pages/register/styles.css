@@ -1,0 +1,65 @@
+.register-containner{
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 550px;
+}
+
+.register-containner .content{
+    width: 100%;
+    padding: 96px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.register-containner .content section{
+    width: 100%;
+    max-width: 350px;
+}
+
+.register-containner .content section h1{
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.register-containner .content section p{
+    color:#E61A27;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+.register-containner .content form select, 
+.register-containner .content form input, 
+.register-containner .content form button{
+    margin-top: 8px;
+    min-width: 200px;
+}
+
+.register-containner .content form select {
+    width: 50%;
+}
+ 
+.register-containner .content form .input-group{
+    display: flex;
+}
+
+.register-containner .content form .input-group input + input{
+    margin-left: 8px;
+}
+ 
+ 
+.register-containner section img{
+    height: 190px;
+ }
+ 
+ 
+ 
+ 
+ 
