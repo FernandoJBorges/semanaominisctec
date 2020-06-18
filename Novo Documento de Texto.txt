@@ -1,0 +1,20 @@
+
+padrao arquiterura berous
+knexjs x querydsl
+migrations - liquibase
+//cria o script 
+npx knex migrate:make migration_create_incidents 
+//roda o script
+npx knex migrate:latest
+
+npx knex migrate:make migration_create_incidents 
+
+npx knex migrate:rollback migration_create_product.js
+npx knex migrate:rollback migration_create_usergame.js
+npx knex migrate:rollback migration_create_game.js
+npx knex migrate:rollback migration_create_user.js
+
+npx knex migrate:make migration_create_user
+npx knex migrate:make migration_create_game
+npx knex migrate:make migration_create_usergame
+npx knex migrate:make migration_create_product
